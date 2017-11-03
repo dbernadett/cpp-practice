@@ -1,11 +1,11 @@
 CXX=g++
 CXXGLFAGS=-Wall
 
-BINARIES = detOfMat
+BINARIES = helloworld
 
 all: $(BINARIES)
 
-detOfMat: detOfMat.o
+helloworld: helloworld.o
 	$(CXX) $(CXXFLAGS) $^ -o $@
 
 clean:
